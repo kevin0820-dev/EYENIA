@@ -1,0 +1,7 @@
+{
+  "name": "EYENIA_ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
