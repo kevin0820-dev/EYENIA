@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teltonika.Codec", "Teltonika.Codec\Teltonika.Codec.csproj", "{ACDD9297-9972-4D62-B7BD-1EF04ED067D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teltonika.DataParser.Client", "Teltonika.DataParser.Client\Teltonika.DataParser.Client.csproj", "{80FAD97D-1A92-4F4A-B8E0-1E83490FF0B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpListener", "TcpListener\TcpListener.csproj", "{D5C457B5-FA2A-4629-B212-4BF54C023A72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdpListener", "UdpListener\UdpListener.csproj", "{39FB1E59-789A-439F-A3CE-67656B3EAE40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HowTo", "HowTo", "{18336D1E-0297-436A-ADD3-75545AF9BA3E}"
+	ProjectSection(SolutionItems) = preProject
+		Teltonika Data Parser HOW-TO.docx = Teltonika Data Parser HOW-TO.docx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReleaseMakerScript", "ReleaseMakerScript", "{21CAB237-3CAE-4639-A53A-55689B3433AD}"
+	ProjectSection(SolutionItems) = preProject
+		ReleaseMaker.ps1 = ReleaseMaker.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Release", ".Release", "{7D3715F6-236F-4ED8-918A-28F2083191D0}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		GlobalAssemblyInfo.cs = GlobalAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACDD9297-9972-4D62-B7BD-1EF04ED067D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACDD9297-9972-4D62-B7BD-1EF04ED067D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACDD9297-9972-4D62-B7BD-1EF04ED067D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACDD9297-9972-4D62-B7BD-1EF04ED067D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80FAD97D-1A92-4F4A-B8E0-1E83490FF0B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80FAD97D-1A92-4F4A-B8E0-1E83490FF0B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80FAD97D-1A92-4F4A-B8E0-1E83490FF0B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80FAD97D-1A92-4F4A-B8E0-1E83490FF0B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5C457B5-FA2A-4629-B212-4BF54C023A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5C457B5-FA2A-4629-B212-4BF54C023A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5C457B5-FA2A-4629-B212-4BF54C023A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5C457B5-FA2A-4629-B212-4BF54C023A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39FB1E59-789A-439F-A3CE-67656B3EAE40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39FB1E59-789A-439F-A3CE-67656B3EAE40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39FB1E59-789A-439F-A3CE-67656B3EAE40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39FB1E59-789A-439F-A3CE-67656B3EAE40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AE98785-BF5F-4299-9508-AD53125A44D6}
+	EndGlobalSection
+EndGlobal
