@@ -4,10 +4,10 @@ Teltonika
 Owner: ayazurrehman786@gmail.com
 WhatsApp: +971566485124
 
-Backend API integration with Frontend
-Teltonika Integration (Already done)
-Google Map / Waze API Integration
-Add payment to pay from Credit/Debit Card
-Upload Files on VPS
-Create Admin Panel
-Concox GPS Integration
+<p> Backend API integration with Frontend <br>
+Teltonika Integration (Already done) <br>
+Google Map / Waze API Integration <br>
+Add payment to pay from Credit/Debit Card <br>
+Upload Files on VPS <br>
+Create Admin Panel <br>
+Concox GPS Integration <br>
