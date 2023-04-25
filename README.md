@@ -1,8 +1,9 @@
 # EYENIA
-Teltonika 
 
 Owner: ayazurrehman786@gmail.com
 WhatsApp: +971566485124
+
+ **Below are the tasks needs to be done: ** <br>
 
 <p> 1. Backend API integration with Frontend <br>
 2. Teltonika Integration (Already done) <br>
