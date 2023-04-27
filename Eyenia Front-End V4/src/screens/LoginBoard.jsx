@@ -10,24 +10,38 @@ import InputAdornment from '@mui/material/InputAdornment';
 import { IconComponentProvider, Icon } from "@react-native-material/core";
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
+
+import { API_URL, AUTHENTICATE } from '../redux/consts';
+import axios from 'axios';
+import { useDispatch } from 'react-redux';
+
 export default function LoginBoard({navigation}) {
   const [username,setUsername]=React.useState('');
   const [pass, setPass]=React.useState(''); 
   function validate(){
-    if(username.match('Abc')&&pass.match('1234')){
-      navigation.navigate('MapScreen2')
-      ToastAndroid.show(
-        'Login Successfully',
-        ToastAndroid.SHORT,);
-    }else if(username.length<=0||pass.length<=0){
+    if(username.length<=0||pass.length<=0){
       ToastAndroid.show(
         'Please Enter Username and Password',
         ToastAndroid.SHORT,
       );
     }else{
-      ToastAndroid.show(
-        'Incorrect Username or Password',
-        ToastAndroid.SHORT,);
+      axios.post(`${API_URL}auth/login`, {
+        email: username,
+        password: pass
+      }).then(res => {
+        console.log(res.data);
+        if (res.status == 200) {
+          dispatch({
+            type: AUTHENTICATE,
+            token: res.data.token
+          });
+          navigation.navigate('MapScreen2');
+        }else{
+          ToastAndroid.show(
+            'Incorrect Username or Password',
+            ToastAndroid.SHORT,);
+        }
+      });
     }
   }
   return (
