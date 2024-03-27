@@ -1,7 +1,6 @@
 # EYENIA
 
-Owner: ayazurrehman786@gmail.com
-WhatsApp: +971566485124
+Owner: sunshine950101@gmail.com
 
 <strong>Below are the tasks needs to be done: <strong> <br>
 
